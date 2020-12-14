@@ -7,11 +7,11 @@ Create another Web application and name it something like "Spring Docker Product
 Run the following command from the root folder to create Docker containers for all your apps.
 
 ```shell
-./mvnw clean install
+    mvnw.cmd clean install
 ```
 
 Then you can start your microservices architecture using Docker Compose:
 
 ```shell
-docker-compose up -d
+    docker-compose up -d
 ```
